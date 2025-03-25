@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 202, 231);
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    width: 300px;
+    height: 400px;
+    border: solid 1px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 17px;
+    
+}
+.qator{
+    display: flex;
+}
+.text{
+    width: 30%;
+}
+
+.marginn{
+    margin: 10px;
+}
+h2{
+    text-align: center;
+}
+.but{
+    display: flex;
+}
+.but button {
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    flex: 1;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: bold
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input {
+    padding: 9px ;
+    border-radius: 15px;
+    border: 1 solid #f0f0f0f0;
+}
+.blu{
+    background-color: rgb(35, 35, 187);
+    color: rgba(255, 255, 255, 0.973);
+    border-radius: 10px 0px 0px 10px;
+}
+.blu1{
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.login {
+    display: flex;
+    justify-content: center; 
+    align-items: center;       
+    padding: 8px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.979);
+    background-color: rgb(37, 37, 172);
+  }
+  
+.footer{
+    text-align: center;
+}
