@@ -50,7 +50,7 @@ li a{
 .col {
     width: 100%;
     display: flex;
-    justify-content: space-between; /* Elementlarni yonma-yon joylashtirish */
+    justify-content: space-between; 
     align-items: center;
     padding: 20px;
 }
