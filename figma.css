@@ -1,77 +1,57 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
     overflow-x: hidden;
 }
-.rasm-qator {
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;    
-}
-.rasm-qator img{
-    max-width: 100%; 
-    height: auto;
-    padding: 30px;
-    }
 
-
-li{
-    list-style: none;
-    display: inline-block;
-    padding-left: 10px;
-}
-.img-text{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    
-}
-.qator {
+.navbar {
     display: grid;
-    grid-template-columns: 40% 60%; 
-    gap: 20px; 
-    align-items: center;
-    text-align: end;
-}
-.qator-1 {
-    display: grid;
-    grid-template-columns: 60% 40%; 
-    gap: 20px; 
+    grid-template-columns: 1fr 2fr; 
     align-items: center; 
+    border: solid black;
+    margin: 0;
+    padding: o;
 }
 
-.qator img {
-    max-width: 100%; 
-    height: auto;
-    float: right;
-    }
-.qator-1 img {
-    max-width: 100%;
-    height: auto;
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.main{
+    background-image: url('img/main.svg');
+    background-size: cover;
+    height: 100vh;
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+}
+.main h1{
+    color: white;
+    font-size: 27px;
+    padding-top: 244px;
+}
+.main a {
+    margin-top: 28px;
+    text-decoration: none;
+    display: inline-block;
+    width: 180px;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    border: solid 2px rgb(235, 230, 230);
+}
+
+
+
+.col {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Elementlarni yonma-yon joylashtirish */
+    align-items: center;
     padding: 20px;
 }
 
-ul {
-    display: flex;              
-    gap: 20px;       
-    list-style: none;
-    margin: 0;
-    padding: 30px;
-}
-    
-.cardo-regular {
-    font-family: "Cardo", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-.cardo-bold {
-    font-family: "Cardo", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-.cardo-regular-italic {
-    font-family: "Cardo", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
